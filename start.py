@@ -192,10 +192,10 @@ if __name__ == "__main__":
     application.add_handler(echo_handler)
 
     application.run_polling()
-
-    # Funzioni da implementare:
-    # Ban e unban ☑
-    # Kick ☑
-    # Mutare e smutare: come creare un oggetto telegram.ChatPermissions? vedi https://docs.python-telegram-bot.org/en/v20.7/telegram.chatpermissions.html
-    # Echo ☑
-    # Cancellare i messaggi altrui (quando MessageHandler non farà schifo magari)
+    
+    # Features to implement:
+    # Banning and unbanning users (done)
+    # Kicking users (done)
+    # Mute and unmute: how do I create a telegram.ChatPermissions object? See https://docs.python-telegram-bot.org/en/v20.7/telegram.chatpermissions.html
+    # Echo (done)
+    # Deleting other users' messages (todo: how does MessageHandler work?)
